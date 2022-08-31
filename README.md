@@ -1,4 +1,6 @@
-
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="banner.gif" />
+</h1>
 # <h1 align="center">My Music - SuperDevs</h1>
 ## :dart: Challenge
 ## :triangular_ruler: Architecture
