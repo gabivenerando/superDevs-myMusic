@@ -1,4 +1,4 @@
-##<h1 align="center"><img alt="MyMusic" title="#Mysic" src="banner.gif" /></h1>
+<h1 align="center"><img alt="MyMusic" title="#Mysic" src="banner.gif" /></h1>
 ## <h1 align="center">My Music - SuperDevs</h1>
 ## :dart: Challenge
 ## :triangular_ruler: Architecture
