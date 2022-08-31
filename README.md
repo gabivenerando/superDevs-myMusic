@@ -6,6 +6,8 @@
 
 ## :dart: Challenge
 ## :triangular_ruler: Architecture
+Hexagonal architecture
+
 ## :wrench: Techniques and technologies used
 - [x] Java 11;
 - [x] Spring Boot;
