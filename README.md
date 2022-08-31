@@ -16,5 +16,5 @@
 
 ## :hammer: Challenge
 ## Squad
-| [<img src="![image](https://user-images.githubusercontent.com/107216833/187770182-12a95eca-c7d9-4454-aef0-d72d3ae983ce.png)" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| [<img src="https://avatars.githubusercontent.com/u/107216833?v=4" width=115><br><sub>Gabrielli Venerando</sub>](https://github.com/gabivenerando) |  
 | :---: | :---: | :---: |
