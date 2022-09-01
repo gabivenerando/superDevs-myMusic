@@ -6,6 +6,8 @@
 
 ## :dart: Challenge
 <p> The challenge started with a monolithic application and the objective was to refactor the code and transform it into a microservice containing the functionality of adding, listing and deleting songs in a playlist using a previously existing SQLite database. The purpose of those changes was to provide for the user a high performance and scalable application. Thus, in this challenge, a hexagonal architecture was adopted, which is highly decoupled and provides the required characteristics for the development of this system. Also, the programming language used to develop this solution was Java 11, with the Springboot framework.</p> 
+
+
 ## :triangular_ruler: Architecture
 Hexagonal architecture
 
