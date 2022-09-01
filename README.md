@@ -23,6 +23,5 @@ Hexagonal architecture
 - [x] Git & GitHub;
 
 ## :busts_in_silhouette: Squad
-| [<img src="https://avatars.githubusercontent.com/u/107216833?v=4" width=115><br><sub>Gabrielli Venerando</sub>](https://github.com/gabivenerando) |  [<img src="https://avatars.githubusercontent.com/u/107144819?v=4" width=115><br><sub>Luan Silva </sub>](https://github.com/luanonciandt
-) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| [<img src="https://avatars.githubusercontent.com/u/107216833?v=4" width=115><br><sub>Gabrielli Venerando</sub>](https://github.com/gabivenerando) |  [<img src="https://avatars.githubusercontent.com/u/107144819?v=4" width=115><br><sub>Luan Silva </sub>](https://github.com/luanonciandt) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
 | :---: | :---: | :---: |
