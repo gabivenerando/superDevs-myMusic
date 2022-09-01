@@ -23,8 +23,7 @@ Hexagonal architecture
 - [x] Git & GitHub;
 
 ## :busts_in_silhouette: Squad
-| [<img src="https://avatars.githubusercontent.com/u/107216833?v=4" width=115><br><sub>Gabrielli Venerando</sub>](https://github.com/gabivenerando) |  [<img src="https://avatars.githubusercontent.com/u/107144819?v=4" width=115><br><sub>Luan Silva </sub>](https://github.com/luanonciandt) | [<img src="https://avatars.githubusercontent.com/u/110483773?v=4" width=115><br><sub>Alessandra Gonçalves </sub>](https://github.com/Alessandra-gr) |  [<img src="https://avatars.githubusercontent.com/u/110483773?v=4" width=115><br><sub>Alessandra Gonçalves </sub>](https://github.com/Alessandra-gr) |  [<img src="https://avatars.githubusercontent.com/u/110483773?v=4" width=115><br><sub>Alessandra Gonçalves </sub>](https://github.com/Alessandra-gr) | 
+| [<img src="https://avatars.githubusercontent.com/u/107216833?v=4" width=115><br><sub>Gabrielli Venerando</sub>](https://github.com/gabivenerando) |  [<img src="https://avatars.githubusercontent.com/u/107144819?v=4" width=115><br><sub>Luan Silva </sub>](https://github.com/luanonciandt) | [<img src="https://avatars.githubusercontent.com/u/110483773?v=4" width=115><br><sub>Alessandra Gonçalves </sub>](https://github.com/Alessandra-gr) |  [<img src="https://avatars.githubusercontent.com/u/107144649?v=4" width=115><br><sub>Agatha Schneider </sub>](https://github.com/htaschneider) |  [<img src="https://avatars.githubusercontent.com/u/107198726?v=4" width=115><br><sub>Laíza Zeferino </sub>](https://github.com/LaizaZnCIT) | 
 | :---: | :---: | :---: | :---: | :---: |
 
-| [<img src="https://avatars.githubusercontent.com/u/107216833?v=4" width=115><br><sub>Gabrielli Venerando</sub>](https://github.com/gabivenerando) |  [<img src="https://avatars.githubusercontent.com/u/107144819?v=4" width=115><br><sub>Luan Silva </sub>](https://github.com/luanonciandt) | [<img src="https://avatars.githubusercontent.com/u/110483773?v=4" width=115><br><sub>Alessandra Gonçalves </sub>](https://github.com/Alessandra-gr) | 
-| :---: | :---: | :---: |
+
