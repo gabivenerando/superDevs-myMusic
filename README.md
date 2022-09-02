@@ -11,6 +11,8 @@
 ## :triangular_ruler: Architecture
 Hexagonal architecture
 
+<h1 align="center"><img alt="Architecture" title="#Architecture" src="imagem.png" /></h1>
+
 ## :wrench: Techniques and technologies used
 - [x] Java 11;
 - [x] Spring Boot;
