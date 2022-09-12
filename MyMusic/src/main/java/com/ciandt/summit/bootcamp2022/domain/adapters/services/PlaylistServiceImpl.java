@@ -2,6 +2,7 @@ package com.ciandt.summit.bootcamp2022.domain.adapters.services;
 
 import com.ciandt.summit.bootcamp2022.domain.Music;
 import com.ciandt.summit.bootcamp2022.domain.dtos.MusicDTO;
+import com.ciandt.summit.bootcamp2022.domain.dtos.UserDTO;
 import com.ciandt.summit.bootcamp2022.domain.ports.interfaces.PlaylistServicePort;
 import com.ciandt.summit.bootcamp2022.domain.ports.repositories.PlaylistRepositoryPort;
 

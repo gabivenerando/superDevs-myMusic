@@ -8,6 +8,7 @@ public class UserDTO {
     private String name;
     private PlaylistDTO playlist;
 
+
     public UserDTO() {
 
     }
@@ -41,4 +42,13 @@ public class UserDTO {
     public void setPlayListId(PlaylistDTO playlist) {
         this.playlist = playlist;
     }
+
+    public PlaylistDTO getPlaylist() {
+        return playlist;
+    }
+
+    public void setPlaylist(PlaylistDTO playlist) {
+        this.playlist = playlist;
+    }
+
 }
