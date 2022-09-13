@@ -29,10 +29,10 @@ public class PlaylistServiceTest {
     void addMusicToPlaylistTest() {
         Music music = new Music("1", "Quero sentir de novo", new Artist("13", "Exaltasamba"));
         String playlistId = "2";
+        String userId = "54504935-345krfldfdfkdf";
+        doNothing().when(playlistRepository).addMusicToPlaylist(playlistId, music, userId);
 
-        doNothing().when(playlistRepository).addMusicToPlaylist(playlistId, music);
-
-        assertDoesNotThrow(() -> playlistService.addMusicToPlaylist(playlistId, music.toMusicDTO()));
+        assertDoesNotThrow(() -> playlistService.addMusicToPlaylist(playlistId, music.toMusicDTO(), userId));
     }
 
     @Test
@@ -40,11 +40,11 @@ public class PlaylistServiceTest {
     void musicOrPlaylistDoesNotExistsTest() {
         Music music = new Music("1", "Quero sentir de novo", new Artist("13", "Exaltasamba"));
         String playlistId = "2";
-
+        String userId = "54504935-345krfldfdfkdf";
         doThrow(new InvalidParameterException("Playlist ou música inexistentes."))
-                .when(playlistRepository).addMusicToPlaylist(playlistId, music);
+                .when(playlistRepository).addMusicToPlaylist(playlistId, music, userId);
 
-        assertThrows(InvalidParameterException.class, () -> playlistService.addMusicToPlaylist(playlistId, music.toMusicDTO()));
+        assertThrows(InvalidParameterException.class, () -> playlistService.addMusicToPlaylist(playlistId, music.toMusicDTO(), userId));
     }
 
     @Test

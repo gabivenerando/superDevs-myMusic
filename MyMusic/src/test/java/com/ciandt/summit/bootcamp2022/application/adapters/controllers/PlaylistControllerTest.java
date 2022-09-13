@@ -54,10 +54,11 @@ public class PlaylistControllerTest {
         MusicDataDTO requestData = new MusicDataDTO();
         requestData.setData(List.of(musicDTO));
         String playlistId = "abc";
+        String userId = "54504935-345krfldfdfkdf";
 
-        Mockito.doNothing().when(playlistService).addMusicToPlaylist(playlistId, musicDTO);
+        Mockito.doNothing().when(playlistService).addMusicToPlaylist(playlistId, musicDTO, userId);
 
-        mvc.perform(put("/api/playlists/" + playlistId +"/musicas")
+        mvc.perform(put("/api/playlists/" + playlistId + "/" + userId + "/musicas")
                 .content(parseJson(requestData))
                 .contentType(MediaType.APPLICATION_JSON)).andExpect(MockMvcResultMatchers.status().isCreated());
     }
@@ -70,11 +71,12 @@ public class PlaylistControllerTest {
         requestData.setData(List.of(musicDTO));
 
         String playlistId = "7490";
+        String userId = "54504935-345krfldfdfkdf";
 
         Mockito.doThrow(new InvalidParameterException("Playlist ou música inexistentes."))
-                .when(playlistService).addMusicToPlaylist(playlistId, musicDTO);
+                .when(playlistService).addMusicToPlaylist(playlistId, musicDTO, userId);
 
-        mvc.perform(put("/api/playlists/" + playlistId +"/musicas")
+        mvc.perform(put("/api/playlists/" + playlistId + "/" + userId + "/musicas")
                 .content(parseJson(requestData))
                 .contentType(MediaType.APPLICATION_JSON)).andExpect(MockMvcResultMatchers.status().isBadRequest());
     }
@@ -83,10 +85,11 @@ public class PlaylistControllerTest {
     void removeMusicFromPlaylistTest() throws Exception {
         String playlistId = "123";
         String musicId = "456";
-
+        String userId = "54504935-345krfldfdfkdf";
+        
         Mockito.doNothing().when(playlistService).removeMusicFromPlaylist(playlistId, musicId);
 
-        mvc.perform(put("/api/playlists/" + playlistId + "/musicas/" + musicId))
+        mvc.perform(put("/api/playlists/" + playlistId +"/musicas/" + musicId))
                 .andExpect(MockMvcResultMatchers.status().isNoContent());
 
     }
