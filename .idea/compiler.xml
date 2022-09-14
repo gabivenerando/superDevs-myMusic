@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="summit-bootcamp" />
+        <module name="summit-bootcamp2022" />
         <module name="MyMusic" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MyMusic" options="-parameters" />
       <module name="summit-bootcamp" options="-parameters" />
+      <module name="summit-bootcamp2022" options="-parameters" />
     </option>
   </component>
 </project>
