@@ -160,7 +160,6 @@
 						<exclude>com/ciandt/summit/bootcamp2022/infra/config/**</exclude>
 						<exclude>com/ciandt/summit/bootcamp2022/infra/adapters/entities/**</exclude>
 						<exclude>com/ciandt/summit/bootcamp2022/infra/adapters/repositories/**</exclude>
-						<exclude>com/ciandt/summit/bootcamp2022/domain/**</exclude>
 						<exclude>com/ciandt/summit/bootcamp2022/domain/dtos/**</exclude>
 					</excludes>
 				</configuration>

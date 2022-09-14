@@ -7,7 +7,6 @@ import com.ciandt.summit.bootcamp2022.domain.ports.interfaces.UserServicePort;
 import com.ciandt.summit.bootcamp2022.exceptions.InvalidParameterException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
@@ -62,10 +61,9 @@ public class UserControllerTest {
     }
 
     @Test
-    @Disabled
     void getUserFailure() throws Exception {
-        Mockito.when(userServicePort.getUserById(null)).thenThrow(new InvalidParameterException("Usuário inexistente"));
-        mvc.perform(get("/api/users/" + null))
+        Mockito.when(userServicePort.getUserById(" ")).thenThrow(new InvalidParameterException("Um id deve ser informado"));
+        mvc.perform(get("/api/users/" + " "))
                 .andExpect(MockMvcResultMatchers.status().isBadRequest());
     }
 

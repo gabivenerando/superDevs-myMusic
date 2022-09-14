@@ -85,8 +85,7 @@ public class PlaylistControllerTest {
     void removeMusicFromPlaylistTest() throws Exception {
         String playlistId = "123";
         String musicId = "456";
-        String userId = "54504935-345krfldfdfkdf";
-        
+
         Mockito.doNothing().when(playlistService).removeMusicFromPlaylist(playlistId, musicId);
 
         mvc.perform(put("/api/playlists/" + playlistId +"/musicas/" + musicId))
