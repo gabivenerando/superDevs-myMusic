@@ -161,6 +161,13 @@
 						<exclude>com/ciandt/summit/bootcamp2022/infra/adapters/entities/**</exclude>
 						<exclude>com/ciandt/summit/bootcamp2022/infra/adapters/repositories/**</exclude>
 						<exclude>com/ciandt/summit/bootcamp2022/domain/dtos/**</exclude>
+						<exclude>com/ciandt/summit/bootcamp2022/domain/adapters/services/ArtistServiceImpl.class</exclude>
+						<exclude>com/ciandt/summit/bootcamp2022/SummitBootcampApplication.*</exclude>
+						<exclude>com/ciandt/summit/bootcamp2022/domain/User.*</exclude>
+						<exclude>com/ciandt/summit/bootcamp2022/domain/UserType.*</exclude>
+						<exclude>com/ciandt/summit/bootcamp2022/domain/Music.*</exclude>
+						<exclude>com/ciandt/summit/bootcamp2022/domain/Playlist.*</exclude>
+						<exclude>com/ciandt/summit/bootcamp2022/domain/Artist.*</exclude>
 					</excludes>
 				</configuration>
 				<executions>
