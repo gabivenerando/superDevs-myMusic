@@ -16,7 +16,7 @@ import java.util.Collections;
 @Component
 public class CustomAuthenticationProvider implements AuthenticationProvider {
 
-    private static final String TOKEN_URI = "https://tokenprovidersuperdevs.herokuapp.com/api/v1/token/authorizer";
+    private static final String TOKEN_URI = "https://tokenprovidersuperdevslala.herokuapp.com/api/v1/token/authorizer";
 
 
     @Override
